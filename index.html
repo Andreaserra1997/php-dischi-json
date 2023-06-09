@@ -5,7 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PHP Dischi JSON</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"
+      defer
+    ></script>
     <script src="script.js" defer></script>
   </head>
-  <body></body>
+  <body>
+    <div id="app" class="container">
+      <div class="container-cards">
+        <div class="card" v-for="album in albums" :key="album.title">
+          <img :src="album.img" alt="" />
+          <h3>{{ album.title }}</h3>
+          <div>{{ album.author }}</div>
+          <div>{{ album.date }}</div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>

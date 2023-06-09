@@ -1,0 +1,38 @@
+[
+  {
+    "title": "New Jersey",
+    "author": "Bon Jovi",
+    "date": "1988",
+    "img": "metal_lifting.jpg"
+  },
+  {
+    "title": "Live at Wembley 86",
+    "author": "Queen",
+    "date": "1992",
+    "img": "metal_lifting.jpg"
+  },
+  {
+    "title": "Ten's Summoner's Tales",
+    "author": "Sting",
+    "date": "1993",
+    "img": "metal_lifting.jpg"
+  },
+  {
+    "title": "Steve Gadd Band",
+    "author": "Steve Gadd Band",
+    "date": "2018",
+    "img": "metal_lifting.jpg"
+  },
+  {
+    "title": "Brave New World",
+    "author": "Iron Maiden",
+    "date": "2000",
+    "img": "metal_lifting.jpg"
+  },
+  {
+    "title": "One More Car, One More Rider",
+    "author": "Eric Clapton",
+    "date": "2002",
+    "img": "metal_lifting.jpg"
+  }
+]

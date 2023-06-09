@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: #1d2d3c;
+  padding: 5rem;
+}
+
+.container-cards {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.card {
+  width: calc((100% / 3) - 2rem);
+  text-align: center;
+  background-color: #112030;
+  color: white;
+}
+
+.card img {
+  width: 60%;
+  padding-top: 1rem;
+}
